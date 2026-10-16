@@ -1,0 +1,8 @@
+# 1. Inisialisasi Git & Tambahkan Semua File
+git init
+git add .
+git commit -m "feat: aplikasi Asisten Manajemen Risiko BPT Komdigi"
+# 2. Hubungkan ke Repositori GitHub Anda
+git branch -M main
+git remote add origin https://github.com/USERNAME_ANDA/bpt-manajemen-risiko.git
+git push -u origin main
